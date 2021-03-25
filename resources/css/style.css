@@ -1,0 +1,52 @@
+/*======= Remove default styles by the browser =========*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.375rem;
+  color: seashell;
+  background-color: #000;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Nav Bar */
+nav {
+  border-bottom: 1px solid #fff5ee;
+  width: 100%;
+  height: 4.3125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav img {
+  height: 3.125rem;
+  margin-left: 10px;
+}
+nav li {
+  display: inline-block;
+}
+nav li:not(:last-child) {
+  margin-right: 10px;
+}
+
+nav a,
+nav a:active,
+nav a:link {
+  color: #fff5ee;
+}
+nav a:hover {
+  color: #ffccaa;
+}
