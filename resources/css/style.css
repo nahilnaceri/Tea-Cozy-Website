@@ -36,6 +36,9 @@ nav img {
   height: 3.125rem;
   margin-left: 10px;
 }
+nav ul {
+  margin-right: 40px;
+}
 nav li {
   display: inline-block;
 }
@@ -110,4 +113,52 @@ h4 {
   height: 200px;
   flex-grow: 1;
   margin-bottom: 10px;
+}
+
+/* Locations section */
+#locations {
+  width: 90%;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#locations h2 {
+  margin-bottom: 15px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.location {
+  background-color: #000;
+  padding: 10px;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  justify-content: center;
+  opacity: 1;
+}
+.location h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.location p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
