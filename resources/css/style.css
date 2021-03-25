@@ -148,7 +148,7 @@ h4 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
 }
 .location {
   background-color: #000;
