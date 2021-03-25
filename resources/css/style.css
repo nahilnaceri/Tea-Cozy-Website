@@ -55,12 +55,13 @@ nav a:hover {
 /* Hero Banner Header */
 
 #banner {
-  width: 75rem;
+  width: 90%;
   height: 43.75rem;
 
   background-image: url("../images/img-mission-background.jpeg");
   margin: 0 auto;
   background-size: cover;
+  background-position: center;
   margin-top: 4.3125rem;
   margin-bottom: 8rem;
   display: flex;
@@ -79,4 +80,34 @@ nav a:hover {
 .banner__heading h2,
 .banner__heading h4 {
   margin: 10px;
+}
+
+/* First Section */
+
+#tea-month {
+  width: 80%;
+  margin: 50px auto;
+}
+h2,
+h4 {
+  margin: 30px 0;
+}
+.container {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.items {
+  margin-bottom: 30px;
+}
+
+.items span {
+  display: block;
+}
+.items img {
+  width: 300px;
+  height: 200px;
+  flex-grow: 1;
+  margin-bottom: 10px;
 }
